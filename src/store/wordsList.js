@@ -16,6 +16,9 @@ export default{
         delete_user_data_word_by_id(state, payload){
             Vue.delete(state.userData.words, payload)
         },
+        
+        /*functional testing with Vuex*/
+        
         /*add_word(state, payload){
             state.words.push(payload)
         },*/
